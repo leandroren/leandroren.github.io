@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(245, 245, 245);
+    font-family: 'Roboto Condensed', sans-serif;
+    }
+
+
+    /************ textos ************/
+
+    h1 { text-align: center;
+        font-size: clamp(3rem, -0.3816rem + 7.3684vw, 6.25rem);
+        font-weight: 700;
+        color: #fbff12;
+        text-shadow: 2px 2px rgb(76, 76, 76);}
+
+    h2 { text-align: center;
+        font-size: clamp(1.3rem, 3.3684vw, 5.25rem);
+        margin-bottom: 4%;
+        color: #fbff12; }
+
+    p { width: 80%;
+        text-align: justify;
+        font-size: clamp(1rem, 0.852rem + 0.7895vw, 1.5625rem);
+        font-weight: lighter;
+        margin: 0 auto;}
+
+    /************ fin de textos ************/
+
+
+
+/************ clases creadas ************/
+
+    .bg-color { background-color: #090b08;}
+    .margin-bottom { margin-bottom: 7%;}
+
+/************ clases creadas ************/
+
+
+
+/************ Inicio de cabecera ************/
+
+    .botonera a.nav-link { font-size: clamp(0.7rem, 0.852rem + 0.7895vw, 1.3rem);}
+    
+        .botonera a { color: rgb(245, 245, 245);}
+
+            .botonera a:hover { color: #fbff12;}
+
+                .botonera ul:hover li { filter: blur(5px);}
+
+                    .botonera ul li:hover { filter: blur(0px);}
+
+/************* fin de cabecera *************/
+
+
+
+
+/************* Inicio de carousel *************/
+
+        .inicio img { margin: 0 auto;
+                    border-radius: 10px;}
+
+
+
+/************* Inicio de musica *************/
+
+        .musica { width: 70%;
+                margin: 80px auto;}
+
+/************* fin de musica *************/
+
+
+
+/************* Inicio de videoclips *************/
+            
+            .videos iframe { border-radius: 15px ;}
+
+/************* Fin de videioclips *************/
+
+
+
+/************* Inicio de Contacto *************/
+
+    .contacto { width: 40rem;}
+
+        .contacto button { background-color: #fbff12;
+                            color: black;
+                            margin: 2% 0 0 0;}
+
+            .contacto button:hover { color: #fbff12;
+                                    border: 1px solid #fbff12;}
+
+/************* Fin de contacto *************/
+
+
+
+/************* pie de pagina *************/
+
+    footer { margin: 2rem 0 0 0;
+            padding: 20px 0;}
+
+        footer ul { padding:0;
+                    list-style:none;
+                    text-align:center;
+                    margin-bottom:0;}
+
+            footer li { padding:0 10px;}
+                
+
+    footer .social { text-align:center;
+                    padding-bottom:25px;}
+
+        footer .social a i { font-size: 40px;
+                            display:inline-block;
+                            margin:0 8px;}
+
+            footer .social a i:hover { opacity:0.9;
+                                    color: #fbff12;}
+
+     /************* Estilos para el botón scroll-top *************/
+    
+    footer .scroll-top i { position: fixed;
+                        color: #fbff12;
+                        bottom: 20px;
+                        right: 20px;
+                        font-size: 40px;
+                        cursor: pointer;}
+
+        footer .copyright { margin-top:15px;
+                            text-align:center;
+                            font-size:13px;
+                            margin-bottom:0;}
+
+
+
+/************* media queries *************/
+
+@media (min-width: 300px) and (max-width: 424.99px) 
+    { 
+        .musica { width: 100%;
+                margin: 0 auto;}
+            
+        
+        .contacto { width: 90%;
+            margin: 0 auto;}
+
+        footer .social a i { font-size: 25px;}
+
+    }
+
+
+@media (min-width: 425px) and (max-width: 768px) 
+    {   
+
+        .musica { width: 100%;
+                margin: 0 auto;}
+            
+
+        .contacto { width: 80%;
+                    margin: 0 auto;}
+
+        footer .social a i { font-size: 30px;}
+
+        }        
+
+
