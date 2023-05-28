@@ -4,7 +4,7 @@
 ## Descripción
 Este proyecto es una página web dedicada a Menganos Rock. Proporciona información sobre la banda, su música, videos y contactos. La página web se ha desarrollado utilizando HTML, CSS, JavaScript y Bootstrap.
 
-## Características
+## Característica
 - Página de inicio con una introducción a la banda y un reproductor de música destacado.
 - Secciones de información sobre la historia de la banda.
 - Sección de contacto con un formulario para que los fans puedan enviar mensajes a la banda.
@@ -20,7 +20,7 @@ Este proyecto es una página web dedicada a Menganos Rock. Proporciona informaci
 - Bootstrap
 
 ## Licencia
-Este proyecto está bajo la Licencia Leandro Ren. Puedes consultar el archivo LICENSE para más detalles.
+Este proyecto está bajo la Licencia de Leandro Ren.
 
-## Contacto
+## Contact
 Si tienes alguna pregunta o comentario sobre este proyecto, puedes contactarme en leandroezequielren@gmail.com.
